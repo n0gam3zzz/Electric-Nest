@@ -1,0 +1,13 @@
+Field=Comment~String~Comment~100|Field=Description~String~Description~100|Field=Designator~String~Designator~100|Field=Footprint~String~Footprint~100|Field=LibRef~String~LibRef~100|Field=Quantity~Integer~Quantity~100|ReportField=Currency~<none>|ReportField=ProductionQuantity~1|ReportField=ProjectFileName~EN-C200-OPT_RA1.PrjPCB|ReportField=ProjectFullPath~D:\学习\作业\电巢\02硬件设计入门\2.3SCH设计快速入门\EN-C200-OPT_RA1.PrjPCB|ReportField=Title~Bill of Materials For Project [EN-C200-OPT_RA1.PrjPCB] (No PCB Document Selected)|ReportField=TotalQuantity~21|ReportField=ReportTime~20:10:33|ReportField=ReportDate~2022/09/26|ReportField=ReportDateTime~2022/09/26 20:10:33|ReportField=OutputName~Bill of Materials|ReportField=OutputType~BOM_PartType|ReportField=GeneratorName~BOM|ReportField=GeneratorDescription~Bill of Materials|ReportField=VariantName~None|ReportField=Address1~|ReportField=Address2~|ReportField=Address3~|ReportField=Address4~|ReportField=ApprovedBy~|ReportField=Author~|ReportField=CheckedBy~|ReportField=CompanyName~|ReportField=CurrentDate~2022/09/26|ReportField=CurrentTime~20:07:08|ReportField=Date~|ReportField=DocumentFullPathAndName~D:\学习\作业\电巢\02硬件设计入门\2.3SCH设计快速入门\EN-C200-OPT_RA1.SchDoc|ReportField=DocumentName~EN-C200-OPT_RA1.SchDoc|ReportField=DocumentNumber~|ReportField=DrawnBy~|ReportField=Engineer~|ReportField=ImagePath~|ReportField=ModifiedDate~2022/09/26|ReportField=Organization~|ReportField=ProjectName~EN-C200-OPT_RA1.PrjPCB|ReportField=Revision~|ReportField=Rule~|ReportField=SheetNumber~|ReportField=SheetTotal~|ReportField=Time~|ReportField=Title~|ReportField=DataSourceFileName~EN-C200-OPT_RA1.PrjPCB|ReportField=DataSourceFullPath~D:\学习\作业\电巢\02硬件设计入门\2.3SCH设计快速入门\EN-C200-OPT_RA1.PrjPCB
+22uF||C1|SC0805|CAP NP|1
+100nF||C2|SC0603|CAP NP|1
+1uF||C3|SC0603|CAP NP|1
+SIP8-2.54MM MALE||J1, J2|SIP-8P-100|HEADER8|2
+SIP2*3-2.54MM||J3|SIP-2X3P-100|CON2X3|1
+LTST-C191KGKT||LED1|HSD0603-LED|LED|1
+10K||R1, R2, R7, R8|SR0603|RESISTOR|4
+1K||R3, R6|SR0603|RESISTOR|2
+4.7K||R4|SR0603|RESISTOR|1
+100K||R5|SR0603|RESISTOR|1
+TP||TP1, TP2, TP3, TP4, TP5|TP32-SMD|TP|5
+BH1750HVI|16λ��������ͻ�����ǿ�ȴ�������I2C BUS/-40�桫+85��|U1|sop6-20-105|BH1750HVI|1
