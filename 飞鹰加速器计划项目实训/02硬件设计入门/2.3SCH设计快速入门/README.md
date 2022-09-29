@@ -55,7 +55,6 @@
 #### `EN-C200-OPT_RA1.PrjPCB`
 
 * 原理图网表生成 `Design` - `Netlist For Project` - `Protel`
-* PCB设计报告输出 `Reports` - `Board Information`
 
 ## 上传的文件
 
