@@ -8,4 +8,4 @@
 
 ## 上传的文件
 
-* 将IPC结果统计文件 `*.txt` 更改文件名为 `Netlist任务检查报告.txt` 上传即可
+* `Netlist任务检查报告.txt`: 将IPC结果统计文件 `*.txt` 更改文件名为 `Netlist任务检查报告.txt` 上传即可
