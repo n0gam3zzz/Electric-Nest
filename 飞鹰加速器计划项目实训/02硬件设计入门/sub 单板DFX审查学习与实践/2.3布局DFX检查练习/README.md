@@ -12,7 +12,7 @@
 ### AD软件输出PCB数据
 
 * ASCII PCB 输出
-  * 另存为 `*.psbdoc` 为PCB ASCII文件即可
+  * 另存为 `PCB ASCII文件(*.pcbdoc)` 即可
 * Gerber 输出
   * `File` - `Fabrication Outputs` - `Gerber Files` 得到 `CAMtastic1.CAM` 文件
 * NC 输出
