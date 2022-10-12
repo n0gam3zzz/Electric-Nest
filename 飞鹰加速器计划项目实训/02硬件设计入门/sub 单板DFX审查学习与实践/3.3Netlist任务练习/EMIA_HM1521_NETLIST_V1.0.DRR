@@ -1,0 +1,25 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: EMIA_HM1521_NETLIST_V1.0.pcbdoc   2022/10/12  21:06:08
+---------------------------------------------------------------------------
+
+Layer Pair : Top Layer to Bottom Layer
+ASCII RoundHoles File : EMIA_HM1521_NETLIST_V1-RoundHoles.TXT
+ASCII SquareHoles File : EMIA_HM1521_NETLIST_V1-SquareHoles.TXT
+ASCII SlotHoles File : EMIA_HM1521_NETLIST_V1-SlotHoles.TXT
+EIA File   : EMIA_HM1521_NETLIST_V1.0.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          379              60.53 Inch (1537.53 mm)
+T2        35.43mil (0.89992mm)     Round          24               11.08 Inch (281.34 mm)
+T3        39.37mil (1mm)           Round          6                4.54 Inch (115.21 mm)
+T4        39.37mil (1mm)           Slot           3                347.96 Inch (8838.16 mm)
+T5        51.18mil (1.29997mm)     Round          8                2.29 Inch (58.24 mm)
+T6        78.74mil (2mm)           Round          6                2.50 Inch (63.50 mm)
+T7        78.74mil (2mm)           Square         2                1.64 Inch (41.60 mm)
+T8        94.49mil (2.40005mm)     Round          3                1.65 Inch (42.00 mm)
+T9        161.5mil (4.1021mm)      Round          3         NPTH   6.28 Inch (159.45 mm)
+---------------------------------------------------------------------------
+Totals                                            434              438.47 Inch (11137.03 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00

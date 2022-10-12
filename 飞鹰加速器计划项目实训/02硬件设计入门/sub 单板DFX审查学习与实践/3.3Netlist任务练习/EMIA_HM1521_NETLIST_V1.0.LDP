@@ -1,0 +1,4 @@
+Layer Pairs Export File for PCB: D:\学习\作业\电巢\02硬件设计入门\sub单板DFX审查学习与实践\3.3Netlist任务练习\EMIA_HM1521_NETLIST_V1.0.pcbdoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=emia_hm1521_netlist_v1-roundholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Square_Holes|DrillFile=emia_hm1521_netlist_v1-squareholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=emia_hm1521_netlist_v1-slotholes.txt|LayerPairs=gtl,gbl

@@ -1,0 +1,10 @@
+Output: Test Point Report
+Type  : Test Points
+From  : Project [Free Documents]
+   Generated File[Assembly Testpoint Report for EMIA_HM1521_NETLIST_V1.0.ipc]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 21:06:18 On 2022/10/12

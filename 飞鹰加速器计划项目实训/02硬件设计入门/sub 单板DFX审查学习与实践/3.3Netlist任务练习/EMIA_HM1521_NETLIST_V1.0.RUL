@@ -1,0 +1,7 @@
+DRC Rules Export File for PCB: D:\学习\作业\电巢\02硬件设计入门\sub单板DFX审查学习与实践\3.3Netlist任务练习\EMIA_HM1521_NETLIST_V1.0.pcbdoc
+RuleKind=Width|RuleName=Width_def|Scope=Board|Minimum=1.00
+RuleKind=ShortCircuit|RuleName=ShortCircuit|Scope=Board|Allowed=0
+RuleKind=Clearance|RuleName=Clearance|Scope=Board|Minimum=7.99
+RuleKind=Width|RuleName=Width_pwr|Scope=Board|Minimum=1.00
+RuleKind=SolderMaskExpansion|RuleName=SolderMaskExpansion|Scope=Board|Minimum=4.00
+RuleKind=Clearance|RuleName=Clearance_1|Scope=Board|Minimum=10.00
