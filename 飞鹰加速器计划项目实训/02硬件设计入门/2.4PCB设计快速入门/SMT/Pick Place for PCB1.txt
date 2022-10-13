@@ -1,0 +1,27 @@
+Designator Footprint               Mid X         Mid Y         Ref X         Ref Y         Pad X         Pad Y TB      Rotation Comment        
+
+C1         SC0805                2380mil       1240mil       2380mil       1240mil       2345mil       1240mil  T          0.00 22uF           
+C2         SC0603                2380mil       1325mil       2380mil       1325mil       2350mil       1325mil  T        360.00 100nF          
+C3         SC0603                2400mil       1766mil       2400mil       1766mil       2400mil       1736mil  T         90.00 1uF            
+J1         SIP-8P-100            1100mil       1490mil       1100mil       1490mil       1100mil       1140mil  B         90.00 SIP8-2.54mm Male
+J2         SIP-8P-100        2900.001mil       1490mil   2900.001mil       1490mil   2900.001mil       1140mil  B         90.00 SIP8-2.54mm Male
+J3         SIP-2x3P-100          1790mil       1465mil       1790mil       1465mil       1890mil       1515mil  T          0.00 SIP2x3-2.54mm  
+LED1       HSD0603-LED           1435mil       1270mil       1435mil       1270mil       1435mil       1241mil  T         90.00 LTST-C191KGKT  
+R1         SR0603                2270mil       1766mil       2270mil       1766mil       2270mil       1796mil  T        270.00 10K            
+R2         SR0603                2465mil       1766mil       2465mil       1766mil       2465mil       1796mil  T        270.00 10K            
+R3         SR0603                2335mil       1766mil       2335mil       1766mil       2335mil       1796mil  T        270.00 1K             
+R4         SR0603                1325mil       1270mil       1325mil       1270mil       1325mil       1300mil  T        270.00 4.7K           
+R5         SR0603                1985mil       1766mil       1985mil       1766mil       1985mil       1736mil  T         90.00 10K            
+R6         SR0603                1890mil       1766mil       1890mil       1766mil       1890mil       1796mil  T        270.00 1K             
+R7         SR0603                1790mil       1766mil       1790mil       1766mil       1790mil       1796mil  T        270.00 10K            
+R8         SR0603                1690mil       1766mil       1690mil       1766mil       1690mil       1796mil  T        270.00 100K           
+TP1        TP32-SMD              2715mil       1440mil       2715mil       1440mil       2715mil       1440mil  B        180.00 NC             
+TP2        TP32-SMD              2710mil       1735mil       2710mil       1735mil       2710mil       1735mil  B         90.00 NC             
+TP3        TP32-SMD              2710mil       1840mil       2710mil       1840mil       2710mil       1840mil  B         90.00 NC             
+TP4        TP32-SMD              2710mil       1340mil       2710mil       1340mil       2710mil       1340mil  B         90.00 NC             
+TP5        TP32-SMD          1264.974mil       1435mil   1264.974mil       1435mil   1264.974mil       1435mil  B         90.00 NC             
+U1         sop6-20-105           2380mil       1485mil       2380mil       1485mil   2360.315mil   1430.866mil  T         90.00 BH1750FVI      
+M1         MARK                  1280mil       1100mil       1280mil       1100mil       1280mil       1100mil  T          0.00 1-MARKFA       
+M2         MARK                  2770mil       1135mil       2770mil       1135mil       2770mil       1135mil  T          0.00 1-MARKFA       
+M3         MARK                  1310mil       1885mil       1310mil       1885mil       1310mil       1885mil  T          0.00 1-MARKFA       
+
