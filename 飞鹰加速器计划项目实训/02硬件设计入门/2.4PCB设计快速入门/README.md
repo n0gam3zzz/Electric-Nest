@@ -103,7 +103,7 @@
     * 在 `Bottom Assembly Drawing` 勾选 `Mirror`
   * 选择 `PCB` - `Monochrome` (黑白)
   * 不勾选 `Save Settings to Output Job document`
-* __光绘文件(Gerber)输出__ _(3:47)_ `File` - `Fabrication Outputs` - `Gerber Files`
+* __光绘文件(Gerber)输出__ `File` - `Fabrication Outputs` - `Gerber Files`
   * `Layers`: 点击 `Plot Layers` - `All On` 然后取消勾选后四个图层
   * `Drill Drawing`
     * `Drill Drawing Plots` - 勾选 `Plot all used layer pairs`
@@ -197,7 +197,7 @@
   * `PCB1.TXT`
   * `Pick Place for PCB1.txt`
   * `Status Report.Txt`
-* 文件夹 `SMT` 输出文件夹中的3个文件
+* 文件夹 `SMT` 输出文件夹中的其中3个文件
   * `PCB1.GBP`
   * `PCB1.GTP`
   * `Pick Place for PCB1.txt`
