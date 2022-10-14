@@ -1,6 +1,6 @@
 # 2.4 PCB设计快速入门
 
-* Updated in 2022/10/13 21:03
+* Updated in 2022/10/14 09:16
 
 ## PCB设计流程
 
@@ -73,7 +73,7 @@
 * 对齐 选中一些器件 `A` 弹出对齐菜单
 * 层叠设置 `Design` - `Layer Stack Manager`
   * `Core`: 设置板厚 62.992mil 和介电常数 4.2
-* 规则设置 `Design` - `Rules...` _(13:31~21:15)_
+* 规则设置 _教学视频(13:31~21:15)_ `Design` - `Rules...`
 * 规则检查 `Tools` - `Design Rule Check...`
 * 布线 `Place` - `Interactive Routing`
   * 自动打孔 `2`
@@ -154,7 +154,7 @@
 
 ## 步骤
 
-* 按照视频进行元器件的放置以及走线等等操作 __花你几个小时自己来搞__
+* 按照视频进行元器件的放置以及走线等等操作 __大约耗时几个小时自己搞__
 * 记得保存PCB文件时选择 `PCB ASCII File (PCB ASCII Version 5.0)` 来保存
 * 将PCB文件修改完成后保存并打包成对应的zip文件上传至 `Vayo-DFX 设计执行系统` 进行 `DFX分析`的`布局`、`布线` 和 `开短路分析` 直到 __不出现问题__
   * 布局与布线的文件上传: 将 `*.pcbdoc` 打包成压缩包 `*.zip` 上传即可
@@ -170,7 +170,7 @@
 
 ### 打包文件
 
-* 文件夹 `ASM` 装配图文件
+* 文件夹 `ASM` 包括装配图文件
   * `PCB1.pdf`
 * 文件夹 `CAM` 包括输出文件夹中所有24个文件
   * `Fabrication Testpoint Report for PCB1.ipc`
@@ -197,7 +197,7 @@
   * `PCB1.TXT`
   * `Pick Place for PCB1.txt`
   * `Status Report.Txt`
-* 文件夹 `SMT` 输出文件夹中的其中3个文件
+* 文件夹 `SMT` 包括输出文件夹中的其中3个文件
   * `PCB1.GBP`
   * `PCB1.GTP`
   * `Pick Place for PCB1.txt`
