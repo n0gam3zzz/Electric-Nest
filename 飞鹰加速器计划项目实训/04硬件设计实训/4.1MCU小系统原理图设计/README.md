@@ -1,5 +1,9 @@
 # MCU小系统原理图设计
 
+```py
+#  林北在某个文件中放好了所有器件了，嘻嘻
+```
+
 ## 操作
 
 * 旋转元器件
@@ -44,8 +48,8 @@
 #### 放置元器件
 
 * `CAP NP` 共36个
-  * Designator: (C11, C12右上角2个; C13, C14, C17, C19左上角4个; C15, C16, C18, C20, C21, C68, C69主芯片两侧7个; C22~C26左下角5个; C49~C60, C62~C67右下角18个)
-  * Comment: 0.1uF(C11, C15, C16, C18, C20, C21, C23~C26), 22uF(C12), 2.7pF(C13, C14), 20pF(C17, C19), 33pF(C49~C60, C62~C67), 0.01uF(C22)
+  * Designator: (C11, C12右上角2个; C13, C14, C17, C19左上角4个; C15, C16, C18, C20, C21, C68, C69主芯片两侧7个; C22 ~ C26左下角5个; C49 ~ C60, C62 ~ C67右下角18个)
+  * Comment: 0.1uF(C11, C15, C16, C18, C20, C21, C23 ~ C26), 22uF(C12), 2.7pF(C13, C14), 20pF(C17, C19), 33pF(C49 ~ C60, C62 ~ C67), 0.01uF(C22)
 * `CON10A` 共2个，其一水平翻转
   * Designator: J3, J6
   * Comment: 2x5 2.54mm Male(J3), 2x5 2.54mm Male DC3(J6)
@@ -62,15 +66,15 @@
   * Designator: LED4
   * Comment: LTST-C191KGKT
 * `PUSH-KEY` 为原理图左下角5个
-  * Designator: (S2~S6)
+  * Designator: (S2 ~ S6)
   * Comment: SKQMASE010
 * `RESISTOR` 共6个
-  * Designator: (R28, R10主芯片左上角1个右下角1个; R12~R15左下角4个)
-  * Comment: 4.7K(R28), 100K(R10), 10K(R12~R15)
+  * Designator: (R28, R10主芯片左上角1个右下角1个; R12 ~ R15左下角4个)
+  * Comment: 4.7K(R28), 100K(R10), 10K(R12 ~ R15)
 * `STM32L431Rx` 主芯片，共1个，注意要水平翻转
   * Desifnator: U3
 * `TP`共9个
-  * Designator: TP42~TP50
+  * Designator: TP42 ~ TP50
   * Comment: NC
 
 ## 上传的文件
