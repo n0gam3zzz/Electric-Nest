@@ -14,7 +14,9 @@
 * 下载 课程参考 - 【EN-C200 AD 元器件库】 - `EN-C200_RA2_ADlib.rar`
   * 解压缩得到 `EN-C200_RA0.PcbLib` 和 `EN-C200_RA0.SchLib`
 * 下载 课程参考 - 【原理图设计样例】 - `EN-C200_MCU电路原理图设计样例.pdf`
-  * __!!对照该文件进行原理图设计!!__
+  * __对照该文件进行原理图设计__
+* 下载 课程参考 - 【BOM表样例】 `EN-C200_RA2-BOM.pdf`
+  * __对照该文件进行元器件的封装更改__
 
 ### 创建工程文件 `EN-C200_RA0.PrjPCB`
 
@@ -41,49 +43,6 @@
 * Net Label 网络标志(导线上的棕色标志) `Place` - `Net Label` (快捷键: `P` + `N`)
 * 原理图网表生成 __EN-C200_RA0_MCU.NET__ `Design` - `Netlist For Project` - `Protel`
   * 生成完成没有提示，注意可能输出在文件夹 `Project Outputs for EN-C200_RA0` 中
-
-#### 放置元器件
-
-* __!!注意修改元器件的Designator和Comment属性!!__
-* `CAP NP` 共36个
-  * Designator: (C11, C12右上角2个; C13, C14, C17, C19左上角4个; C15, C16, C18, C20, C21, C68, C69主芯片两侧7个; C22 ~ C26左下角5个; C49 ~ C60, C62 ~ C67右下角18个)
-  * Comment: 0.1uF(C11, C15, C16, C18, C20, C21, C23 ~ C26), 22uF(C12), 2.7pF(C13, C14), 20pF(C17, C19), 33pF(C49 ~ C60, C62 ~ C67), 0.01uF(C22)
-  * Footprint: SC0805(C12), SC0603(其余)
-* `CON10A` 共2个，其一水平翻转
-  * Designator: J3, J6
-  * Comment: 2x5 2.54mm Male(J3), 2x5 2.54mm Male DC3(J6)
-  * Footprint: SIP-2X5P-100(J3), SIP-2X5P-100-DS(J6)
-* `CRYSTAL2P` 为原理图中左上角1个
-  * Designator: Y1
-  * Comment: 32.768KHz
-  * Footprint: FC-135_110
-* `CRYSTAL4P` 为原理图中左上角1个
-  * Designator: Y2
-  * Comment: 8MHz
-  * Footprint: HSX4-0503B
-* `HEADER8` 为原理图中下方共2个，其一水平翻转
-  * Designator: J7, J8
-  * Comment: SIP8-2.54mm Female
-  * Footprint: SIP-8P-100
-* `LED` 为原理图中左上角1个
-  * Designator: LED4
-  * Comment: LTST-C191KGKT
-  * Footprint: HSD0603-LED
-* `PUSH-KEY` 为原理图左下角5个
-  * Designator: (S2 ~ S6)
-  * Comment: SKQMASE010
-  * Footprint: SW2-240X140
-* `RESISTOR` 共6个
-  * Designator: (R28, R10主芯片左上角1个右下角1个; R12 ~ R15左下角4个)
-  * Comment: 4.7K(R28), 100K(R10), 10K(R12 ~ R15)
-  * Footprint: SR0603
-* `STM32L431Rx` 主芯片，共1个，注意要水平翻转
-  * Desifnator: U3
-  * Footprint: QFP64D-050-1010L
-* `TP`共9个
-  * Designator: TP42 ~ TP50
-  * Comment: NC
-  * Footprint: TP32-SMD
 
 ## 上传的文件
 
