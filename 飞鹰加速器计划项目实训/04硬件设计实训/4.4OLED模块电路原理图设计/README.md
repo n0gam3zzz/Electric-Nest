@@ -35,7 +35,7 @@
   * `Delete` 删除走线
   * `左键` 改变走线
   * `右键` 退出走线
-* 交叉走线中添加结点 `Place - Manual Junction`
+* 交叉走线中添加结点 `Place` - `Manual Junction`
 * Off Sheet Connector (图中红色双箭头图形>>) `Place` - `Off Sheet Connector` (快捷键: `P` + `C`)
   * 属性中 `NET` 更改名字
   * 属性中 `Style` 更改朝向
