@@ -12,7 +12,7 @@
 ### 下载文件
 
 * 使用 [之前任务](https://github.com/n0gam3zzz/Electric-Nest/tree/main/飞鹰加速器计划项目实训/04硬件设计实训/4.1MCU小系统原理图设计) 课程参考 - 【EN-C200 AD 元器件库】 - `EN-C200_RA2_ADlib.rar` 解压缩得到 `EN-C200_RA0.PcbLib` 和 `EN-C200_RA0.SchLib`
-* 下载 课程参考 - 【原理图设计样例】 - `电源电路原理图设计样例.pdf`
+* 下载 课程参考 - 【原理图设计样例】 - `EN-C200_NB-IoT电路原理图设计样例.pdf`
   * __对照该文件进行原理图设计__
 * 使用 [之前任务](https://github.com/n0gam3zzz/Electric-Nest/tree/main/飞鹰加速器计划项目实训/04硬件设计实训/4.1MCU小系统原理图设计) 课程参考 - 【BOM表样例】 `EN-C200_RA2-BOM.pdf`
   * __对照该文件进行元器件的封装更改__
@@ -21,7 +21,7 @@
 
 * 创建工程 `File` - `New` - `Project` - `PCB Project` 并保存为 `EN-C200_RA0.PrjPCB`
 * 右键 `EN-C200_RA0.PrjPCB` - `Add Existing to Project...` 将之前解压缩得到的 `EN-C200_RA0.PcbLib` 和 `EN-C200_RA0.SchLib` 添加
-* 右键 `EN-C200_RA0.PrjPCB` - `Add new to Project` - `Schematic` 并保存为 `EN-C200_RA0_PWR.SchDoc`
+* 右键 `EN-C200_RA0.PrjPCB` - `Add new to Project` - `Schematic` 并保存为 `EN-C200_RA0_NB-IoT.SchDoc`
 
 ### `EN-C200_RA0_NB-IoT.SchDoc`
 
@@ -46,7 +46,7 @@
   * (文字颜色选13的蓝色)
 * 元器件文本左下一个点
   * 双击文本打开文本属性 - 不勾选 `Autoposition`
-* 原理图网表生成 __EN-C200_RA0_MCU.NET__ `Design` - `Netlist For Project` - `Protel`
+* 原理图网表生成 __EN-C200_RA0_NB-IoT.NET__ `Design` - `Netlist For Project` - `Protel`
   * 生成完成没有提示，注意可能输出在文件夹 `Project Outputs for EN-C200_RA0` 中
 
 ## 上传的文件
