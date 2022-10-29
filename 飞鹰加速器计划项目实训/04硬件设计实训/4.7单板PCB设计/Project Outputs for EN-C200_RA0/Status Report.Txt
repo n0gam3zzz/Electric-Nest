@@ -1,0 +1,10 @@
+Output: Generates pick and place files
+Type  : Pick Place
+From  : Project [EN-C200_RA0.PrjPCB]
+   Generated File[Pick Place for EN-C200_RA2_DFX.txt]
+
+
+Files Generated   : 1
+Documents Printed : 0
+
+Finished Output Generation At 12:29:14 On 2022/10/29

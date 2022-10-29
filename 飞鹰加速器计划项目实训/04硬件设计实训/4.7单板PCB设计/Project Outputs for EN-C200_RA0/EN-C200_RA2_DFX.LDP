@@ -1,0 +1,3 @@
+Layer Pairs Export File for PCB: D:\学习\作业\电巢\04硬件设计实训\4.7单板PCB设计\EN-C200_RA2_DFX.pcbdoc
+LayersSetName=Top_Bot_Thru_Holes|DrillFile=en-c200_ra2_dfx-roundholes.txt|LayerPairs=gtl,gbl
+LayersSetName=Top_Bot_Slot_Holes|DrillFile=en-c200_ra2_dfx-slotholes.txt|LayerPairs=gtl,gbl

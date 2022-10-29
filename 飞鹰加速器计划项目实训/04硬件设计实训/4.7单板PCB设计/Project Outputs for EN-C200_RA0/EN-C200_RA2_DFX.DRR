@@ -1,0 +1,22 @@
+---------------------------------------------------------------------------
+NCDrill File Report For: EN-C200_RA2_DFX.pcbdoc   2022/10/29  12:26:44
+---------------------------------------------------------------------------
+
+Layer Pair : TOP to BOTTOM
+ASCII RoundHoles File : EN-C200_RA2_DFX-RoundHoles.TXT
+ASCII SlotHoles File : EN-C200_RA2_DFX-SlotHoles.TXT
+EIA File   : EN-C200_RA2_DFX.DRL
+
+Tool         Hole Size           Hole Type     Hole Count Plated       Tool Travel
+---------------------------------------------------------------------------
+T1        12mil (0.3048mm)         Round          558              79.30 Inch (2014.26 mm)
+T2        32mil (0.8128mm)         Round          6                0.61 Inch (15.40 mm)
+T3        36mil (0.9144mm)         Round          9                1.91 Inch (48.52 mm)
+T4        40mil (1.016mm)          Round          48               11.83 Inch (300.61 mm)
+T5        45.28mil (1.15011mm)     Slot           4                292.40 Inch (7427.02 mm)
+T6        24mil (0.6096mm)         Round          2         NPTH   0.16 Inch (4.00 mm)
+T7        129.92mil (3.29997mm)    Round          4         NPTH   12.22 Inch (310.51 mm)
+---------------------------------------------------------------------------
+Totals                                            631              398.44 Inch (10120.31 mm)
+
+Total Processing Time (hh:mm:ss) : 00:00:00
