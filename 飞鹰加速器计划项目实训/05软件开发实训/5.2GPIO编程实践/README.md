@@ -1,1 +1,2 @@
 
+![1](https://github.com/n0gam3zzz/Electric-Nest/blob/main/%E9%A3%9E%E9%B9%B0%E5%8A%A0%E9%80%9F%E5%99%A8%E8%AE%A1%E5%88%92%E9%A1%B9%E7%9B%AE%E5%AE%9E%E8%AE%AD/05%E8%BD%AF%E4%BB%B6%E5%BC%80%E5%8F%91%E5%AE%9E%E8%AE%AD/5.2GPIO%E7%BC%96%E7%A8%8B%E5%AE%9E%E8%B7%B5/.img/1.png)
