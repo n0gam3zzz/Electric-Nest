@@ -7,11 +7,20 @@
 
 ### 1.1 函数
 
-* HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState)
+```c
+HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+```
+
+* 写入管脚
   * GPIOx: GPIOx，其中 x 可以是(A~H)，用于选择STM32L4系列的GPIO外围
   * GPIO_Pin: 设置GPIO管脚的位号
   * PinState: 为枚举常量——高电平 GPIO_PIN_SET、低电平 GPIO_PIN_RESET
-* HAL_Delay(uint32_t Delay)
+
+```c
+HAL_Delay(uint32_t Delay);
+```
+
+* 设置延迟时间
   * Delay: 延迟时间(ms)
 
 ### 1.2 硬件烧制与测试
