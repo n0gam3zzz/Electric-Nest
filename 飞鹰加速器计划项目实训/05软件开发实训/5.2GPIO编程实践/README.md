@@ -8,7 +8,7 @@
 ### 1.1 函数
 
 ```c
-HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
+void HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState);
 ```
 
 * 写入管脚
@@ -17,7 +17,7 @@ HAL_GPIO_WritePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin, GPIO_PinState PinState
   * PinState: 为枚举常量——高电平 GPIO_PIN_SET、低电平 GPIO_PIN_RESET
 
 ```c
-HAL_Delay(uint32_t Delay);
+__weak void HAL_Delay(uint32_t Delay);
 ```
 
 * 设置延迟时间
