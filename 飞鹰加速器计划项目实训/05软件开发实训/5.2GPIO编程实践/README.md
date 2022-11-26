@@ -1,5 +1,7 @@
 # GPIO编程实践
 
+[物联网终端软件实训(1)——GPIO与灯开关控制编程实践 - 物联网技术 - EDA365电子论坛网](https://www.eda365.com/thread-226842-1-2.html)
+
 ## 1 操作
 
 * 工程文件中（ _...\*\MDK-ARM_ 中选择文件 `*.uvprojx` 用 Keil uVision 软件打开）
