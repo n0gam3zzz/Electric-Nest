@@ -15,7 +15,14 @@ void HAL_GPIO_TogglePin(GPIO_TypeDef* GPIOx, uint16_t GPIO_Pin)
   * GPIOx: GPIOx，其中 x 可以是(A~H)，用于选择STM32L4系列的GPIO外围
   * GPIO_Pin: 设置GPIO管脚的位号
 
-### 1.2 硬件烧制与测试
+### 1.2 通过 STM-32 ST-LINK Utility 进行硬件烧制与测试
+
+* 首先要连接上单板
+* 在 STM-32 ST-LINK Utility中点击 `Target` - `Connect`，与单板建立连接
+* 点击 `File` - `Open file...` 打开需要下载的 `*.hex` 文件
+* 点击 `Target` - `Program & Verify...` 点击 `Start` 即可开始烧制，并得到结果
+
+### 1.3 通过 Keil uVision 进行硬件烧制与测试
 
 * 首先要连接上单板
 * 在 Keil uVision 中编程好并编译好后，打开 `Project` - `Options for Target '*'...`
