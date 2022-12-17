@@ -32,7 +32,7 @@ HAL_StatusTypeDef HAL_UART_Transmit(UART_HandleTypeDef *huart, uint8_t *pData, u
 * 首先要连接上单板
 * 在 Keil uVision 中编程好并编译好后，打开 `Project` - `Options for Target '*'...`
 * 进入 `Debug` 选项卡，选择 `Use ST-Link Debugger`，点击右方的 `Settings` 打开
-* 在 `Debug` 选项卡中，Unit中应显示 `ST-LINK/V2` ；进入 `Flash Download` ，勾选 `Reset and Run`，这样在下载之后就可以直接运行查看效果
+* 在 `Debug` 选项卡中，Unit中应显示 `ST-LINK/V2` ；进入 `Flash Download` ，勾选 `Reset and Run`，点击 `Add` 选择 `STM32L4xx 256 KB Flash` 添加。这样在下载之后就可以直接运行查看效果
 * 点击确定关闭两个窗口，点击 `下载` 即可开始烧制，并得到结果
 
 ### 1.4 USART2 设置
