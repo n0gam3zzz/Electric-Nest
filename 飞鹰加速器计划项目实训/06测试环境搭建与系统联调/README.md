@@ -1,4 +1,4 @@
-# 1 华为云设备接入操作（板子程序不用动）
+# 1 华为云设备接入操作
 
 ## 1.1 产品创建
 
@@ -12,16 +12,17 @@
 
 ## 1.2 模型定义 - 添加服务
 
-* 服务名称: Light Service
+* 服务名称: LightService
 * 属性
   * 属性名称: ambientLevel
+  * 属性描述: 光强
   * 数据类型: int
   * 访问权限: 可读 可写
   * 步长: 1
   * 单位: Lux
 * 命令
   * 命令名称: SWITCH_LIGHT
-  * 参数
+  * 新增下发参数
     * 参数名称: switchLight
     * 数据类型: string
     * 长度: 3
@@ -31,6 +32,7 @@
 
 * 新增好消息和字段后，添加 属性 ambientLevel，添加 命令 SWITCH_LIGHT
 * 将自动连接：SmartLightInfo→ambientLevel - LightService，SWITCH_LIGHT→switchLight - SWITCH_LIGHT
+* 保存并部署
 
 ### 1.3.1 新增消息1
 
@@ -68,3 +70,9 @@
 ## 3 (X)注意
 
 * 完成后将设备删除
+
+## 4 (X)注意
+
+* 首先从uVision更改过的程序烧制板子，板子重新连线，以和华为云连接，但是不知道为什么显示屏不再工作
+* 为了让显示屏重新工作，烧制之前给的hex文件以正常显示
+* 设置IP地址需要在cmd中 `ping *.iotda-coaps.cn-east-3.myhuaweicloud.com` ，接入地址在华为云接入信息中可以找到
